@@ -86,14 +86,14 @@ html {
 	width: 60%
 }
 
-#list-items {
+.list-items {
 	font-size: 2rem;
 	text-align: center;
 	
 
 }
 
-#list-items li {
+.list-items li {
 	border: 1px solid black;
 	padding-top: .75rem;
 	padding-bottom: .75rem;
@@ -102,7 +102,7 @@ html {
 	border-radius: 5px;
 }
 
-#list-items li:nth-child(even) {
+.list-items li:nth-child(even) {
 	background-color: #a8b9a8;
 }
 

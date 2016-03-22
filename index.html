@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<title>My List</title>
-	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="stylesheet" href="css/reset.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>		
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<section class="masthead">
 		<div class="logo">
-     		<img src="css/cart.png" >
+     	<img src="css/cart.png">
 		</div>
+
 		<div class="item-tally">
 			<ul class="counts">
-				<li>Need: <span id="need">#</span></li>
-				<li>Got: <span id="got">#</span></li>
-				<li>Total: <span id="total">#</span></li>
+				<li>Need: <span class="need">#</span></li>
+				<li>Got: <span class="got">#</span></li>
+				<li>Total: <span class="total">#</span></li>
 			</ul>
 		</div>
 	</section>
@@ -30,11 +31,13 @@
 		<p class="instructions">
 		Add a new item, click it to cross off, and click it once more to remove from list.
 		</p>
+
 		<form class="form">
-			<input type="text" class="new-item" id="add-new" placeholder="Add new item...">
+			<input type="text" class="new-item" placeholder="Add new item...">
 		</form>
+		
 		<div class="list-area">
-			<ul id="list-items">
+			<ul class="list-items">
 				<li class="unchecked">Click to cross off</li>
 				<li class="unchecked">You can also click and drag</li>
 				<li class="unchecked">Artichokes</li>
@@ -44,9 +47,8 @@
 		</div>
 	</section>
 
-	<section class="footer">
-	</section>
+	<section class="footer"></section>
 	
+	<script src="js/app.js"></script>
 </body>
-
 </html>
